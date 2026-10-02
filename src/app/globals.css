@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+@import './tokens.css';
+
+/* Respect a user's reduced-motion setting across every component, rather than per-component. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* A skip link is the cheapest accessibility win on any site: it lets a keyboard user jump the
+   navigation instead of tabbing through it on every page. Visible only when focused. */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 100;
+  transition: top 0.15s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}

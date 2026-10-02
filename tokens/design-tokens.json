@@ -1,0 +1,74 @@
+{
+  "$description": "Design tokens for the Lattice system. This file is the contract with design — it is what a Figma Variables or Token Studio export produces, and nothing downstream hardcodes a value that isn't here. `npm run tokens` compiles it into the Tailwind theme.",
+  "color": {
+    "brand": {
+      "50": { "$value": "#eefbfa" },
+      "100": { "$value": "#d2f4f2" },
+      "200": { "$value": "#a9e8e6" },
+      "300": { "$value": "#72d6d5" },
+      "400": { "$value": "#3cbabc" },
+      "500": { "$value": "#229da1" },
+      "600": { "$value": "#197e84" },
+      "700": { "$value": "#18656b" },
+      "800": { "$value": "#195357" },
+      "900": { "$value": "#194549" }
+    },
+    "accent": {
+      "50": { "$value": "#fff5ed" },
+      "100": { "$value": "#ffe8d4" },
+      "200": { "$value": "#ffcda8" },
+      "300": { "$value": "#ffa970" },
+      "400": { "$value": "#fe7a36" },
+      "500": { "$value": "#fc5810" },
+      "600": { "$value": "#ed3c06" },
+      "700": { "$value": "#c42a07" },
+      "800": { "$value": "#9c230e" },
+      "900": { "$value": "#7e200f" }
+    },
+    "neutral": {
+      "0": { "$value": "#ffffff" },
+      "50": { "$value": "#f6f7f9" },
+      "100": { "$value": "#eceef2" },
+      "200": { "$value": "#d9dde4" },
+      "300": { "$value": "#b9c0cc" },
+      "400": { "$value": "#929cad" },
+      "500": { "$value": "#687385" },
+      "600": { "$value": "#586274" },
+      "700": { "$value": "#48505e" },
+      "800": { "$value": "#3e4450" },
+      "900": { "$value": "#1c2027" },
+      "950": { "$value": "#12151a" }
+    },
+    "success": { "500": { "$value": "#15803d" }, "100": { "$value": "#dcfce7" } },
+    "warning": { "500": { "$value": "#945a06" }, "100": { "$value": "#fef3c7" } },
+    "danger": { "500": { "$value": "#b91c1c" }, "100": { "$value": "#fee2e2" } },
+    "info": { "500": { "$value": "#1d4ed8" }, "100": { "$value": "#dbeafe" } }
+  },
+  "font": {
+    "sans": { "$value": "'Inter var', ui-sans-serif, system-ui, -apple-system, sans-serif" },
+    "mono": { "$value": "ui-monospace, SFMono-Regular, Menlo, monospace" }
+  },
+  "text": {
+    "xs": { "$value": "0.75rem" },
+    "sm": { "$value": "0.875rem" },
+    "base": { "$value": "1rem" },
+    "lg": { "$value": "1.125rem" },
+    "xl": { "$value": "1.375rem" },
+    "2xl": { "$value": "1.75rem" },
+    "3xl": { "$value": "2.25rem" },
+    "4xl": { "$value": "3rem" },
+    "5xl": { "$value": "3.75rem" }
+  },
+  "radius": {
+    "sm": { "$value": "0.25rem" },
+    "md": { "$value": "0.5rem" },
+    "lg": { "$value": "0.75rem" },
+    "xl": { "$value": "1rem" },
+    "full": { "$value": "9999px" }
+  },
+  "shadow": {
+    "sm": { "$value": "0 1px 2px 0 rgb(28 32 39 / 0.06)" },
+    "md": { "$value": "0 4px 12px -2px rgb(28 32 39 / 0.10)" },
+    "lg": { "$value": "0 12px 32px -8px rgb(28 32 39 / 0.18)" }
+  }
+}
